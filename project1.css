@@ -1,0 +1,449 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: 'Kumbh Sans', sans-serif;
+
+}
+
+p{
+    color: aliceblue;
+}
+
+body{
+
+background-color: hsl(0deg 10.44% 93.33%) ;
+max-height: 100vh;
+position: relative;
+
+}
+
+
+body::before{
+    content:"" ;
+    height: 550px;
+    width: 300px;
+    background-color:  hsl(264, 100%, 61%);
+    position: absolute;
+    border-bottom-right-radius: 195px;
+    border-bottom-left-radius: 195px;
+    
+    }
+
+.mobile {
+    height: 416px;
+    width: 238px ;
+    position: absolute;
+    left: 269px;
+    border-radius: 26px;
+    background-color: hsl(270, 20%, 96%);
+    top: 64px;
+    border: solid white 9px;
+    position: relative;
+}
+
+.mobile::before{
+
+    content: "";
+    height: 27px;
+    width: 101px;
+    background-color: #fefefe;
+    position: absolute;
+    z-index: 1;
+    border-radius: 31px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -6px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.name {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 69px;
+background: linear-gradient(45deg, hsl(264, 100%, 61%),hsl(289, 95%, 70%) );
+border-top-right-radius: 22px;
+border-top-left-radius: 22px;
+border-bottom-right-radius: 8px;
+border-bottom-left-radius: 8px;
+position: relative;
+padding-top: 16px;
+
+}
+
+.name img {
+    width: 29px;
+    border: 2px solid white;
+    border-radius: 50%;
+    justify-self: left;
+    margin-left: -47px;
+}
+
+.name::before{
+     
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f053";
+    color: #f1eded;
+    position: absolute;
+    left: 11px;
+    font-size: 12px;
+}
+
+
+.name::after{
+     
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0c9";
+    color: #f1eded;
+    position: absolute;
+    font-size: 12px;
+    right: 16px;
+}
+
+
+
+
+
+.name  pre{
+
+    font-size: 12px;
+    margin-left: 9px;
+    color: white;
+
+}
+
+.aval{
+
+    color: #6f6767;
+    font-size: 9px;
+}
+
+.mobile .chat {
+
+display: flex;
+flex-direction: column;
+gap: 4px;
+padding-top: 8px;
+
+}
+
+.mobile .chat div {
+
+    height: fit-content;
+    background-color: #ded0d0;
+    width: fit-content;
+    max-width: 136px;
+    border-radius: 10px;
+    border-bottom-left-radius: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 4px 7px;
+margin-left: 5px;
+}
+
+
+.mobile .chat div:nth-child(3){
+
+background-color: transparent;
+gap: 2px;
+margin:5px 0px;
+align-self: flex-end;
+}
+
+
+
+.mobile .chat .right{
+    background-color: #ffffff;
+    align-self: flex-end;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 2px;
+    margin-right: 5px;
+    padding: 3px 12px;
+
+}
+
+
+
+
+.mobile .chat div p{
+
+    color: black;
+    font-size: 8px;
+}
+
+
+
+
+.chat .dog{
+
+background-color: transparent;
+
+
+
+}
+
+
+.mobile .chat div img {
+
+width: 40px;
+border-radius: 10px;
+}
+
+
+.mobile .chat .active{
+
+    background: linear-gradient(45deg, hsl(264, 100%, 61%),hsl(289, 95%, 70%) );
+    padding: 6px 16px;
+    border-radius: 4px;
+    border-bottom-left-radius: 0px;
+    position: relative;  
+}
+
+.mobile .chat .active p{
+color: #f1eded;
+
+}
+.mobile .chat .active span{
+
+    font-weight: 900;
+    color: white;
+    margin-left: 13px;
+    font-size: 10px;
+
+}
+
+
+.mobile .chat .active::before{
+
+    content: "";
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    border: solid 1px #cec7c7;
+    position: absolute;
+    left: 3px;
+
+
+
+}
+
+.mobile .chat .massage{
+
+    background-color: white;
+    width: 203px;
+    max-width: none;
+    padding: 12px 25px;
+    border: 4px;
+    border-bottom-left-radius: 12px;
+    margin-top: 6px;
+    align-self: center;
+position: relative;
+
+}
+
+.mobile .chat .massage::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f1d8";
+    position: absolute;
+    background: linear-gradient(45deg, hsl(264, 100%, 61%),hsl(289, 95%, 70%) );
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 50%;
+    right: 10px;
+
+}
+
+
+.mobile .chat .massage input{
+
+    font-size: 10px;
+    border: none;
+    outline: none;
+
+}
+
+.simple{
+ /* position: relative; */
+position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 45%;
+    width: 400px;
+   
+}
+
+.simple::after{
+content: "";
+width:300px;
+height: 400px;
+background-color: #68656550;
+position: absolute;
+left: 310px;
+top: 20px;
+border-radius: 153px 152px 0 0;
+z-index: -1;
+}
+
+
+.simple h3 {
+
+    font-size: 33px;
+    line-height: 79px;
+}
+
+.simple p {
+
+    color: #ab9c9c;
+
+}
+
+
+@media (max-width:450px)  {
+
+
+body{
+
+    padding-bottom: ;
+}
+
+    .mobile {
+       left: 50px;
+
+    }
+    
+
+
+
+    body::before{
+        left: -37%;
+        }
+
+
+.simple{
+    width: 249px;
+left: 50%;
+transform: translateX(-50%);
+top: 550px;
+padding-bottom: 25px;
+
+}
+
+.simple::after{
+
+    display: none;
+}
+
+}
+
+
+
+@media  (min-width:450px)  {
+
+
+    /* body{
+    
+        padding-bottom: ;
+    } */
+    
+        .mobile {
+            left: 50%;
+            transform: translateX(-50%);
+    
+        }
+        
+        body::before{
+            left: 0%;
+            }
+    
+    
+    .simple{
+        width: 249px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 550px;
+    padding-bottom: 25px;
+    
+    }
+    
+    .simple::after{
+    
+        display: none;
+    }
+    
+    }
+    
+
+
+@media (min-width:800px) {
+    
+
+    .mobile {
+        height: 416px;
+        width: 238px ;
+        position: absolute;
+        left: 350px;
+        border-radius: 26px;
+        background-color: hsl(270, 20%, 96%);
+        top: 64px;
+        border: solid white 9px;
+        position: relative;
+    }
+    
+
+
+
+    .simple{
+        /* position: relative; */
+       position: absolute;
+           top: 60%;
+           transform: translateY(-50%);
+           left: 50%;
+           width: 400px;
+          
+       }
+
+
+
+
+
+
+
+
+
+       body::before{
+        content:"" ;
+        height: 550px;
+        width: 300px;
+        background-color:  hsl(264, 100%, 61%);
+        position: absolute;
+        border-bottom-right-radius: 195px;
+        border-bottom-left-radius: 195px;
+        left: -20px;
+        }
+    
+
+
+
+
+
+
+}
+
+
+
+
+
