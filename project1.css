@@ -1,38 +1,38 @@
-*{
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-font-family: 'Kumbh Sans', sans-serif;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
 
 }
 
-p{
+p {
     color: aliceblue;
 }
 
-body{
+body {
 
-background-color: hsl(0deg 10.44% 93.33%) ;
-max-height: 100vh;
-position: relative;
+    background-color: hsl(0deg 10.44% 93.33%);
+    max-height: 100vh;
+    position: relative;
 
 }
 
 
-body::before{
-    content:"" ;
+body::before {
+    content: "";
     height: 550px;
     width: 300px;
-    background-color:  hsl(264, 100%, 61%);
+    background-color: hsl(264, 100%, 61%);
     position: absolute;
     border-bottom-right-radius: 195px;
     border-bottom-left-radius: 195px;
-    
-    }
+
+}
 
 .mobile {
     height: 416px;
-    width: 238px ;
+    width: 238px;
     position: absolute;
     left: 269px;
     border-radius: 26px;
@@ -42,7 +42,7 @@ body::before{
     position: relative;
 }
 
-.mobile::before{
+.mobile::before {
 
     content: "";
     height: 27px;
@@ -67,17 +67,17 @@ body::before{
 
 
 .name {
-display: flex;
-justify-content: center;
-align-items: center;
-height: 69px;
-background: linear-gradient(45deg, hsl(264, 100%, 61%),hsl(289, 95%, 70%) );
-border-top-right-radius: 22px;
-border-top-left-radius: 22px;
-border-bottom-right-radius: 8px;
-border-bottom-left-radius: 8px;
-position: relative;
-padding-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 69px;
+    background: linear-gradient(45deg, hsl(264, 100%, 61%), hsl(289, 95%, 70%));
+    border-top-right-radius: 22px;
+    border-top-left-radius: 22px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    position: relative;
+    padding-top: 16px;
 
 }
 
@@ -89,8 +89,8 @@ padding-top: 16px;
     margin-left: -47px;
 }
 
-.name::before{
-     
+.name::before {
+
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f053";
@@ -101,8 +101,8 @@ padding-top: 16px;
 }
 
 
-.name::after{
-     
+.name::after {
+
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f0c9";
@@ -116,7 +116,7 @@ padding-top: 16px;
 
 
 
-.name  pre{
+.name pre {
 
     font-size: 12px;
     margin-left: 9px;
@@ -124,7 +124,7 @@ padding-top: 16px;
 
 }
 
-.aval{
+.aval {
 
     color: #6f6767;
     font-size: 9px;
@@ -132,10 +132,10 @@ padding-top: 16px;
 
 .mobile .chat {
 
-display: flex;
-flex-direction: column;
-gap: 4px;
-padding-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-top: 8px;
 
 }
 
@@ -151,21 +151,21 @@ padding-top: 8px;
     align-items: center;
     justify-content: flex-start;
     padding: 4px 7px;
-margin-left: 5px;
+    margin-left: 5px;
 }
 
 
-.mobile .chat div:nth-child(3){
+.mobile .chat div:nth-child(3) {
 
-background-color: transparent;
-gap: 2px;
-margin:5px 0px;
-align-self: flex-end;
+    background-color: transparent;
+    gap: 2px;
+    margin: 5px 0px;
+    align-self: flex-end;
 }
 
 
 
-.mobile .chat .right{
+.mobile .chat .right {
     background-color: #ffffff;
     align-self: flex-end;
     border-bottom-left-radius: 9px;
@@ -178,7 +178,7 @@ align-self: flex-end;
 
 
 
-.mobile .chat div p{
+.mobile .chat div p {
 
     color: black;
     font-size: 8px;
@@ -187,9 +187,9 @@ align-self: flex-end;
 
 
 
-.chat .dog{
+.chat .dog {
 
-background-color: transparent;
+    background-color: transparent;
 
 
 
@@ -198,25 +198,26 @@ background-color: transparent;
 
 .mobile .chat div img {
 
-width: 40px;
-border-radius: 10px;
+    width: 40px;
+    border-radius: 10px;
 }
 
 
-.mobile .chat .active{
+.mobile .chat .active {
 
-    background: linear-gradient(45deg, hsl(264, 100%, 61%),hsl(289, 95%, 70%) );
+    background: linear-gradient(45deg, hsl(264, 100%, 61%), hsl(289, 95%, 70%));
     padding: 6px 16px;
     border-radius: 4px;
     border-bottom-left-radius: 0px;
-    position: relative;  
+    position: relative;
 }
 
-.mobile .chat .active p{
-color: #f1eded;
+.mobile .chat .active p {
+    color: #f1eded;
 
 }
-.mobile .chat .active span{
+
+.mobile .chat .active span {
 
     font-weight: 900;
     color: white;
@@ -226,7 +227,7 @@ color: #f1eded;
 }
 
 
-.mobile .chat .active::before{
+.mobile .chat .active::before {
 
     content: "";
     height: 8px;
@@ -240,7 +241,7 @@ color: #f1eded;
 
 }
 
-.mobile .chat .massage{
+.mobile .chat .massage {
 
     background-color: white;
     width: 203px;
@@ -250,16 +251,16 @@ color: #f1eded;
     border-bottom-left-radius: 12px;
     margin-top: 6px;
     align-self: center;
-position: relative;
+    position: relative;
 
 }
 
-.mobile .chat .massage::before{
+.mobile .chat .massage::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f1d8";
     position: absolute;
-    background: linear-gradient(45deg, hsl(264, 100%, 61%),hsl(289, 95%, 70%) );
+    background: linear-gradient(45deg, hsl(264, 100%, 61%), hsl(289, 95%, 70%));
     font-size: 13px;
     padding: 5px;
     border-radius: 50%;
@@ -268,7 +269,7 @@ position: relative;
 }
 
 
-.mobile .chat .massage input{
+.mobile .chat .massage input {
 
     font-size: 10px;
     border: none;
@@ -276,26 +277,26 @@ position: relative;
 
 }
 
-.simple{
- /* position: relative; */
-position: absolute;
+.simple {
+    /* position: relative; */
+    position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: 45%;
     width: 400px;
-   
+
 }
 
-.simple::after{
-content: "";
-width:300px;
-height: 400px;
-background-color: #68656550;
-position: absolute;
-left: 310px;
-top: 20px;
-border-radius: 153px 152px 0 0;
-z-index: -1;
+.simple::after {
+    content: "";
+    width: 300px;
+    height: 400px;
+    background-color: #68656550;
+    position: absolute;
+    left: 310px;
+    top: 20px;
+    border-radius: 153px 152px 0 0;
+    z-index: -1;
 }
 
 
@@ -312,88 +313,88 @@ z-index: -1;
 }
 
 
-@media (max-width:450px)  {
+@media (max-width:450px) {
 
 
-body{
+    body {
 
-    padding-bottom: ;
-}
+        padding-bottom: ;
+    }
 
     .mobile {
-       left: 50px;
+        left: 50px;
 
     }
-    
 
 
 
-    body::before{
+
+    body::before {
         left: -37%;
-        }
+    }
 
 
-.simple{
-    width: 249px;
-left: 50%;
-transform: translateX(-50%);
-top: 550px;
-padding-bottom: 25px;
+    .simple {
+        width: 249px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 550px;
+        padding-bottom: 25px;
+
+    }
+
+    .simple::after {
+
+        display: none;
+    }
 
 }
 
-.simple::after{
-
-    display: none;
-}
-
-}
 
 
-
-@media  (min-width:450px)  {
+@media (min-width:450px) {
 
 
     /* body{
     
         padding-bottom: ;
     } */
-    
-        .mobile {
-            left: 50%;
-            transform: translateX(-50%);
-    
-        }
-        
-        body::before{
-            left: 0%;
-            }
-    
-    
-    .simple{
-        width: 249px;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 550px;
-    padding-bottom: 25px;
-    
+
+    .mobile {
+        left: 50%;
+        transform: translateX(-50%);
+
     }
-    
-    .simple::after{
-    
+
+    body::before {
+        left: 0%;
+    }
+
+
+    .simple {
+        width: 249px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 550px;
+        padding-bottom: 25px;
+
+    }
+
+    .simple::after {
+
         display: none;
     }
-    
-    }
-    
+
+}
 
 
-@media (min-width:800px) {
-    
+
+@media (min-width:850px) {
+
 
     .mobile {
         height: 416px;
-        width: 238px ;
+        width: 238px;
         position: absolute;
         left: 350px;
         border-radius: 26px;
@@ -402,19 +403,19 @@ padding-bottom: 25px;
         border: solid white 9px;
         position: relative;
     }
-    
 
 
 
-    .simple{
+
+    .simple {
         /* position: relative; */
-       position: absolute;
-           top: 60%;
-           transform: translateY(-50%);
-           left: 50%;
-           width: 400px;
-          
-       }
+        position: absolute;
+        top: 60%;
+        transform: translateY(-50%);
+        left: 55%;
+        width: 400px;
+
+    }
 
 
 
@@ -424,17 +425,17 @@ padding-bottom: 25px;
 
 
 
-       body::before{
-        content:"" ;
+    body::before {
+        content: "";
         height: 550px;
         width: 300px;
-        background-color:  hsl(264, 100%, 61%);
+        background-color: hsl(264, 100%, 61%);
         position: absolute;
         border-bottom-right-radius: 195px;
         border-bottom-left-radius: 195px;
         left: -20px;
-        }
-    
+    }
+
 
 
 
@@ -442,8 +443,3 @@ padding-bottom: 25px;
 
 
 }
-
-
-
-
-
